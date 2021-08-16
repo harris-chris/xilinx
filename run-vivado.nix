@@ -3,6 +3,18 @@
 let
   xrt = pkgs.callPackage ./xrt.nix {};
 
+  #my-pkgs = import <nixpkgs> {
+    #overlays = [
+      #(self: super: with self; {
+        #my-gcc = lowPrio (wrapCC (super.gcc48.cc.overrideAttrs(old: {
+          #configureFlags = old.configureFlags ++ [
+            #"--enable-multilib"
+          #];
+        #})));
+      #})
+    #];
+  #};
+
   fhs = pkgs.buildFHSUserEnv {
     name = "vivado";
     targetPkgs = pkgs: with pkgs; [
@@ -28,10 +40,12 @@ let
       glib
       gtk2
       gtk3
-
       # from installLibs.sh
       graphviz
-      gcc
+      # gcc
+      #gccMultiStdenv
+      (lib.hiPrio gcc)
+      glibc
       unzip
       nettools
     ];
