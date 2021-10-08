@@ -2,8 +2,8 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Mon Aug 16 10:04:54 2021
-# Process ID: 453208
+# Start of session at: Wed Aug 18 08:59:52 2021
+# Process ID: 205817
 # Current directory: /data/vap/xilinx/test_blinking_led/test_blinking_led.runs/impl_1
 # Command line: vivado -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
 # Log file: /data/vap/xilinx/test_blinking_led/test_blinking_led.runs/impl_1/top.vdi
@@ -14,21 +14,21 @@ Command: open_checkpoint top_opt.dcp
 
 Starting open_checkpoint Task
 
-Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2717.773 ; gain = 0.000 ; free physical = 950 ; free virtual = 6504
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2738.586 ; gain = 5.938 ; free physical = 264 ; free virtual = 6687
 INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2717.797 ; gain = 0.000 ; free physical = 358 ; free virtual = 5991
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2738.609 ; gain = 0.000 ; free physical = 510 ; free virtual = 7024
 INFO: [Project 1-479] Netlist was created with Vivado 2021.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2717.797 ; gain = 0.000 ; free physical = 242 ; free virtual = 5886
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2738.609 ; gain = 0.000 ; free physical = 375 ; free virtual = 6903
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Project 1-604] Checkpoint was created with Vivado v2021.1 (64-bit) build 3247384
-open_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2717.797 ; gain = 0.023 ; free physical = 241 ; free virtual = 5885
+open_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2738.609 ; gain = 9.930 ; free physical = 374 ; free virtual = 6902
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
-INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+INFO: [Common 17-86] Your Implementation license expires in 27 day(s)
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-27] Running DRC with 8 threads
 INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
@@ -44,20 +44,20 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3161.488 ; gain = 0.000 ; free physical = 172 ; free virtual = 5406
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3162.285 ; gain = 0.000 ; free physical = 247 ; free virtual = 6421
 Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 00000000
 
-Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3161.488 ; gain = 0.000 ; free physical = 172 ; free virtual = 5406
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3162.285 ; gain = 0.000 ; free physical = 247 ; free virtual = 6421
 Phase 1 Placer Initialization | Checksum: 00000000
 
-Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3161.488 ; gain = 0.000 ; free physical = 171 ; free virtual = 5406
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3162.285 ; gain = 0.000 ; free physical = 247 ; free virtual = 6421
 ERROR: [Place 30-494] The design is empty
 Resolution: Check if opt_design has removed all the leaf cells of your design.  Check whether you have instantiated and connected all of the top level ports.
 Ending Placer Task | Checksum: 00000000
 
-Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3161.488 ; gain = 0.000 ; free physical = 171 ; free virtual = 5406
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3162.285 ; gain = 0.000 ; free physical = 247 ; free virtual = 6421
 INFO: [Common 17-83] Releasing license: Implementation
 16 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
 place_design failed
 ERROR: [Common 17-69] Command failed: Placer could not place all instances
-INFO: [Common 17-206] Exiting Vivado at Mon Aug 16 10:05:23 2021...
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 18 09:00:17 2021...

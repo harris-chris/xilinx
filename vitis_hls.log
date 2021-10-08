@@ -1,0 +1,108 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source /opt/xilinx/Vitis_HLS/2021.1/scripts/vitis_hls/hls.tcl -notrace
+DBG: vitis_hls_bin handler
+DBG: vitis_hls_bin handler: arg='eval' used=0 default=
+DBG: vitis_hls_bin handler: eval=
+DBG: vitis_hls_bin handler: arg='f' used=0 default=0
+DBG: vitis_hls_bin handler: f=0
+DBG: vitis_hls_bin handler: arg='flow' used=0 default=syn
+DBG: vitis_hls_bin handler: flow=syn
+DBG: vitis_hls_bin handler: arg='flow_args' used=0 default=
+DBG: vitis_hls_bin handler: flow_args=
+DBG: vitis_hls_bin handler: arg='gui' used=0 default=0
+DBG: vitis_hls_bin handler: gui=0
+DBG: vitis_hls_bin handler: arg='i' used=0 default=0
+DBG: vitis_hls_bin handler: i=0
+DBG: vitis_hls_bin handler: arg='init' used=1 default=0
+DBG: vitis_hls_bin handler: init=1
+DBG: vitis_hls_bin handler: arg='l' used=0 default=vitis_hls.log
+DBG: vitis_hls_bin handler: l=vitis_hls.log
+DBG: vitis_hls_bin handler: arg='messageDb' used=0 default=
+DBG: vitis_hls_bin handler: messageDb=
+DBG: vitis_hls_bin handler: arg='n' used=0 default=0
+DBG: vitis_hls_bin handler: n=0
+DBG: vitis_hls_bin handler: arg='nosplash' used=0 default=0
+DBG: vitis_hls_bin handler: nosplash=0
+DBG: vitis_hls_bin handler: arg='notclline' used=0 default=0
+DBG: vitis_hls_bin handler: notclline=0
+DBG: vitis_hls_bin handler: arg='p' used=0 default=
+DBG: vitis_hls_bin handler: p=
+DBG: vitis_hls_bin handler: arg='showguiout' used=0 default=0
+DBG: vitis_hls_bin handler: showguiout=0
+DBG: vitis_hls_bin handler: arg='tclscripts' used=0 default=
+DBG: vitis_hls_bin handler: tclscripts=
+DBG: vitis_hls_bin handler: arg='terse' used=0 default=0
+DBG: vitis_hls_bin handler: terse=0
+DBG: vitis_hls_bin handler: arg='test' used=1 default=0
+DBG: vitis_hls_bin handler: test=1
+DBG: vitis_hls_bin handler: arg='testClassName' used=0 default=
+DBG: vitis_hls_bin handler: testClassName=
+DBG: vitis_hls_bin handler: arg='version' used=0 default=0
+DBG: vitis_hls_bin handler: version=0
+DBG: vitis_hls_bin handler: arg='workpath' used=0 default=
+DBG: vitis_hls_bin handler: workpath=
+DBG: vitis_hls_bin handler: arg='workspace-prefix' used=0 default=
+DBG: vitis_hls_bin handler: workspace-prefix=
+INFO: [HLS 200-10] Running '/opt/xilinx/Vitis_HLS/2021.1/bin/unwrapped/lnx64.o/vitis_hls'
+/opt/xilinx/Vitis_HLS/2021.1/tps/tcl/tcl8.5/tzdata/UTC can't be opened.
+INFO: [HLS 200-10] For user 'chris' on host 'nixos' (Linux_x86_64 version 5.10.40) on Fri Oct 08 22:14:17 +0000 2021
+INFO: [HLS 200-10] In directory '/data/vap/xilinx'
+DBG: vitis_hls_bin handler
+DBG: vitis_hls_bin handler: arg='eval' used=0 default=
+DBG: vitis_hls_bin handler: eval=
+DBG: vitis_hls_bin handler: arg='f' used=0 default=0
+DBG: vitis_hls_bin handler: f=0
+DBG: vitis_hls_bin handler: arg='flow' used=0 default=syn
+DBG: vitis_hls_bin handler: flow=syn
+DBG: vitis_hls_bin handler: arg='flow_args' used=0 default=
+DBG: vitis_hls_bin handler: flow_args=
+DBG: vitis_hls_bin handler: arg='gui' used=0 default=0
+DBG: vitis_hls_bin handler: gui=0
+DBG: vitis_hls_bin handler: arg='i' used=0 default=0
+DBG: vitis_hls_bin handler: i=0
+DBG: vitis_hls_bin handler: arg='init' used=0 default=0
+DBG: vitis_hls_bin handler: init=0
+DBG: vitis_hls_bin handler: arg='l' used=0 default=vitis_hls.log
+DBG: vitis_hls_bin handler: l=vitis_hls.log
+DBG: vitis_hls_bin handler: arg='messageDb' used=0 default=
+DBG: vitis_hls_bin handler: messageDb=
+DBG: vitis_hls_bin handler: arg='n' used=0 default=0
+DBG: vitis_hls_bin handler: n=0
+DBG: vitis_hls_bin handler: arg='nosplash' used=0 default=0
+DBG: vitis_hls_bin handler: nosplash=0
+DBG: vitis_hls_bin handler: arg='notclline' used=0 default=0
+DBG: vitis_hls_bin handler: notclline=0
+DBG: vitis_hls_bin handler: arg='p' used=0 default=
+DBG: vitis_hls_bin handler: p=
+DBG: vitis_hls_bin handler: arg='showguiout' used=0 default=0
+DBG: vitis_hls_bin handler: showguiout=0
+DBG: vitis_hls_bin handler: arg='tclscripts' used=0 default=
+DBG: vitis_hls_bin handler: tclscripts=
+DBG: vitis_hls_bin handler: arg='terse' used=0 default=0
+DBG: vitis_hls_bin handler: terse=0
+DBG: vitis_hls_bin handler: arg='test' used=1 default=0
+DBG: vitis_hls_bin handler: test=1
+DBG: vitis_hls_bin handler: arg='testClassName' used=0 default=
+DBG: vitis_hls_bin handler: testClassName=
+DBG: vitis_hls_bin handler: arg='version' used=0 default=0
+DBG: vitis_hls_bin handler: version=0
+DBG: vitis_hls_bin handler: arg='workpath' used=0 default=
+DBG: vitis_hls_bin handler: workpath=
+DBG: vitis_hls_bin handler: arg='workspace-prefix' used=0 default=
+DBG: vitis_hls_bin handler: workspace-prefix=
+INFO: [HLS 200-10] Bringing up Vitis HLS GUI ... 
+(java:1766473): dbind-WARNING **: 22:14:18.167: Couldn't register with accessibility bus: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+HLS_GUI_DEBUG_INFO: Start loading Swig Library: hls_main
+HLS_GUI_DEBUG_INFO: Finish loading Swig Library: hls_main
+HLS_GUI_DEBUG_INFO: Running GuiDriver.tclInitFromJava, tclIsRunning=false
+INFO: [HLS 200-10] Running '/opt/xilinx/Vitis_HLS/2021.1/tps/lnx64/jre11.0.2/bin/java'
+/opt/xilinx/Vitis_HLS/2021.1/tps/tcl/tcl8.5/tzdata/UTC can't be opened.
+INFO: [HLS 200-10] For user 'chris' on host 'nixos' (Linux_x86_64 version 5.10.40) on Fri Oct 08 22:14:21 +0000 2021
+INFO: [HLS 200-10] In directory '/data/vap/xilinx'
+ERROR: Problem initializing HLS engine
+INFO: [Common 17-206] Exiting vitis_hls at Fri Oct  8 22:14:21 2021...

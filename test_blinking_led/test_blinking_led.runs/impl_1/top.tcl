@@ -123,6 +123,7 @@ set ACTIVE_STEP place_design
 set rc [catch {
   create_msg_db place_design.pb
   set_param chipscope.maxJobs 3
+  set_param xicom.use_bs_reader 1
   open_checkpoint top_opt.dcp
   set_property webtalk.parent_dir /data/vap/xilinx/test_blinking_led/test_blinking_led.cache/wt [current_project]
 OPTRACE "read constraints: place_design" START { }
