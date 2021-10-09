@@ -50,7 +50,8 @@ let
       export _JAVA_AWT_WM_NONREPARENTING=1
       source ${vitisPath}/settings64.sh
     '';
-    runScript = "vitis_hls -debug -test";
+    #runScript = "vitis_hls -debug -test";
+    runScript = "vitis_hls -i";
     #runScript = "vitis_hls -log ./log/vitis.log -journal ./log/vitis.jou";
   };
 in fhs.env

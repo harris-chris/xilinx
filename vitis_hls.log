@@ -5,104 +5,105 @@
     ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 
 source /opt/xilinx/Vitis_HLS/2021.1/scripts/vitis_hls/hls.tcl -notrace
-DBG: vitis_hls_bin handler
-DBG: vitis_hls_bin handler: arg='eval' used=0 default=
-DBG: vitis_hls_bin handler: eval=
-DBG: vitis_hls_bin handler: arg='f' used=0 default=0
-DBG: vitis_hls_bin handler: f=0
-DBG: vitis_hls_bin handler: arg='flow' used=0 default=syn
-DBG: vitis_hls_bin handler: flow=syn
-DBG: vitis_hls_bin handler: arg='flow_args' used=0 default=
-DBG: vitis_hls_bin handler: flow_args=
-DBG: vitis_hls_bin handler: arg='gui' used=0 default=0
-DBG: vitis_hls_bin handler: gui=0
-DBG: vitis_hls_bin handler: arg='i' used=0 default=0
-DBG: vitis_hls_bin handler: i=0
-DBG: vitis_hls_bin handler: arg='init' used=1 default=0
-DBG: vitis_hls_bin handler: init=1
-DBG: vitis_hls_bin handler: arg='l' used=0 default=vitis_hls.log
-DBG: vitis_hls_bin handler: l=vitis_hls.log
-DBG: vitis_hls_bin handler: arg='messageDb' used=0 default=
-DBG: vitis_hls_bin handler: messageDb=
-DBG: vitis_hls_bin handler: arg='n' used=0 default=0
-DBG: vitis_hls_bin handler: n=0
-DBG: vitis_hls_bin handler: arg='nosplash' used=0 default=0
-DBG: vitis_hls_bin handler: nosplash=0
-DBG: vitis_hls_bin handler: arg='notclline' used=0 default=0
-DBG: vitis_hls_bin handler: notclline=0
-DBG: vitis_hls_bin handler: arg='p' used=0 default=
-DBG: vitis_hls_bin handler: p=
-DBG: vitis_hls_bin handler: arg='showguiout' used=0 default=0
-DBG: vitis_hls_bin handler: showguiout=0
-DBG: vitis_hls_bin handler: arg='tclscripts' used=0 default=
-DBG: vitis_hls_bin handler: tclscripts=
-DBG: vitis_hls_bin handler: arg='terse' used=0 default=0
-DBG: vitis_hls_bin handler: terse=0
-DBG: vitis_hls_bin handler: arg='test' used=1 default=0
-DBG: vitis_hls_bin handler: test=1
-DBG: vitis_hls_bin handler: arg='testClassName' used=0 default=
-DBG: vitis_hls_bin handler: testClassName=
-DBG: vitis_hls_bin handler: arg='version' used=0 default=0
-DBG: vitis_hls_bin handler: version=0
-DBG: vitis_hls_bin handler: arg='workpath' used=0 default=
-DBG: vitis_hls_bin handler: workpath=
-DBG: vitis_hls_bin handler: arg='workspace-prefix' used=0 default=
-DBG: vitis_hls_bin handler: workspace-prefix=
 INFO: [HLS 200-10] Running '/opt/xilinx/Vitis_HLS/2021.1/bin/unwrapped/lnx64.o/vitis_hls'
 /opt/xilinx/Vitis_HLS/2021.1/tps/tcl/tcl8.5/tzdata/UTC can't be opened.
-INFO: [HLS 200-10] For user 'chris' on host 'nixos' (Linux_x86_64 version 5.10.40) on Fri Oct 08 22:14:17 +0000 2021
+INFO: [HLS 200-10] For user 'chris' on host 'nixos' (Linux_x86_64 version 5.10.40) on Fri Oct 08 22:19:55 +0000 2021
 INFO: [HLS 200-10] In directory '/data/vap/xilinx'
-DBG: vitis_hls_bin handler
-DBG: vitis_hls_bin handler: arg='eval' used=0 default=
-DBG: vitis_hls_bin handler: eval=
-DBG: vitis_hls_bin handler: arg='f' used=0 default=0
-DBG: vitis_hls_bin handler: f=0
-DBG: vitis_hls_bin handler: arg='flow' used=0 default=syn
-DBG: vitis_hls_bin handler: flow=syn
-DBG: vitis_hls_bin handler: arg='flow_args' used=0 default=
-DBG: vitis_hls_bin handler: flow_args=
-DBG: vitis_hls_bin handler: arg='gui' used=0 default=0
-DBG: vitis_hls_bin handler: gui=0
-DBG: vitis_hls_bin handler: arg='i' used=0 default=0
-DBG: vitis_hls_bin handler: i=0
-DBG: vitis_hls_bin handler: arg='init' used=0 default=0
-DBG: vitis_hls_bin handler: init=0
-DBG: vitis_hls_bin handler: arg='l' used=0 default=vitis_hls.log
-DBG: vitis_hls_bin handler: l=vitis_hls.log
-DBG: vitis_hls_bin handler: arg='messageDb' used=0 default=
-DBG: vitis_hls_bin handler: messageDb=
-DBG: vitis_hls_bin handler: arg='n' used=0 default=0
-DBG: vitis_hls_bin handler: n=0
-DBG: vitis_hls_bin handler: arg='nosplash' used=0 default=0
-DBG: vitis_hls_bin handler: nosplash=0
-DBG: vitis_hls_bin handler: arg='notclline' used=0 default=0
-DBG: vitis_hls_bin handler: notclline=0
-DBG: vitis_hls_bin handler: arg='p' used=0 default=
-DBG: vitis_hls_bin handler: p=
-DBG: vitis_hls_bin handler: arg='showguiout' used=0 default=0
-DBG: vitis_hls_bin handler: showguiout=0
-DBG: vitis_hls_bin handler: arg='tclscripts' used=0 default=
-DBG: vitis_hls_bin handler: tclscripts=
-DBG: vitis_hls_bin handler: arg='terse' used=0 default=0
-DBG: vitis_hls_bin handler: terse=0
-DBG: vitis_hls_bin handler: arg='test' used=1 default=0
-DBG: vitis_hls_bin handler: test=1
-DBG: vitis_hls_bin handler: arg='testClassName' used=0 default=
-DBG: vitis_hls_bin handler: testClassName=
-DBG: vitis_hls_bin handler: arg='version' used=0 default=0
-DBG: vitis_hls_bin handler: version=0
-DBG: vitis_hls_bin handler: arg='workpath' used=0 default=
-DBG: vitis_hls_bin handler: workpath=
-DBG: vitis_hls_bin handler: arg='workspace-prefix' used=0 default=
-DBG: vitis_hls_bin handler: workspace-prefix=
-INFO: [HLS 200-10] Bringing up Vitis HLS GUI ... 
-(java:1766473): dbind-WARNING **: 22:14:18.167: Couldn't register with accessibility bus: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
-HLS_GUI_DEBUG_INFO: Start loading Swig Library: hls_main
-HLS_GUI_DEBUG_INFO: Finish loading Swig Library: hls_main
-HLS_GUI_DEBUG_INFO: Running GuiDriver.tclInitFromJava, tclIsRunning=false
-INFO: [HLS 200-10] Running '/opt/xilinx/Vitis_HLS/2021.1/tps/lnx64/jre11.0.2/bin/java'
-/opt/xilinx/Vitis_HLS/2021.1/tps/tcl/tcl8.5/tzdata/UTC can't be opened.
-INFO: [HLS 200-10] For user 'chris' on host 'nixos' (Linux_x86_64 version 5.10.40) on Fri Oct 08 22:14:21 +0000 2021
-INFO: [HLS 200-10] In directory '/data/vap/xilinx'
-ERROR: Problem initializing HLS engine
-INFO: [Common 17-206] Exiting vitis_hls at Fri Oct  8 22:14:21 2021...
+[2Kvitis_hls> [11C[2Kvitis_hls> h[12C[2Kvitis_hls> he[13C[2Kvitis_hls> hel[14C[2Kvitis_hls> help[15C
+ALL TCL COMMANDS:
+  add_files                          - The add_files command adds design source and testbench files to the current
+                                       project.
+  close_project                      - The close_project command closes the current project, so this project is no
+                                       longer active.
+  close_solution                     - The close_solution command closes the current solution, so this solution is no
+                                       longer active.
+  config_array_partition             - This command allows the default behavior for array partitioning to be specified.
+  config_compile                     - Configure csynth_design source compilation options
+  config_dataflow                    - Configure dataflow options
+  config_debug                       - Control behavior of debug file generation
+  config_export                      - Set configuration options that control the result of the export_design command.
+  config_interface                   - The config_interface command specifies the default interface options used to
+                                       implement the RTL ports of each function.
+  config_op                          - Configure the default implementation style and latency for different operators
+  config_rtl                         - This command configures various attributes of the output RTL
+  config_schedule                    - This configures the default behavior of scheduling.
+  config_storage                     - Configure the default implementation style and latency for different types of
+                                       storage elements
+  config_unroll                      - Configure automatic loop unrolling
+  cosim_design                       - Executes post-synthesis co-simulation of the generated RTL with the original
+                                       C-based testbench.
+  cosim_stall                        - Utility command for co-simlation stall json file development
+  create_clock                       - The create_clock command creates a virtual clock for the current solution.
+  csim_design                        - Compiles and run pre-synthesis C simulation using the provided C test bench.
+  csynth_design                      - The csynth_design command synthesizes the source files and generates RTL.
+  delete_project                     - The delete_project command deletes the directory associated with the project.
+  delete_solution                    - The delete_solution command removes a solution from the active project and
+                                       deletes the solution sub-directory from the project directory.
+  enable_beta_device                 - Enable beta device
+  export_design                      - Exports the HLS generated RTL as a Vivado IP for downstream tools.  Can also run
+                                       Vivado RTL synthesis or implementation flows.
+  get_clock_period                   - Get clock period used in current solution
+  get_clock_uncertainty              - Get clock uncertainty used in current solution
+  get_files                          - Get files that were added to current project
+  get_part                           - Get part used in current solution
+  get_project                        - Get the current project name or directory
+  get_solution                       - Get the current solution name, directory or flow_target
+  get_top                            - Get top name set in current project
+  help                               - Print the manpage of a command
+  list_part                          - This command returns names of supported device families, parts or boards.
+  open_project                       - The open_project command opens an existing project or creates a new one.
+  open_solution                      - The open_solution command opens an existing solution or creates a new one in the
+                                       currently active project.
+  open_tcl_project                   - Open project by sourcing a TCL file, will skip all *_design commands (i.e.
+                                       csynth_design)
+  set_clock_uncertainty              - Specify a margin which is subtracted from the clock period to create an effective
+                                       clock period used for scheduling.
+  set_directive_aggregate            - Specify that a struct or class variable should be aggregated.
+  set_directive_alias                - Specify that two or more M_AXI pointer arguments all point into the same
+                                       underlying buffer in DRAM (DDR or HBM) and indicate any aliasing between the
+                                       pointers by setting the distance between them
+  set_directive_allocation           - Specify a limit for the number of operations, implementations, or functions used.
+                                       This can force the sharing or hardware resources and may increase latency.
+  set_directive_array_partition      - Partitions large arrays into multiple smaller arrays or into individual
+                                       registers, to improve access to data and remove block RAM bottlenecks.
+  set_directive_array_reshape        - Reshape an array from one with many elements to one with greater word-width.
+                                       Useful for improving block RAM accesses without using more block RAM.
+  set_directive_bind_op              - Define a specific implementation and latency for an operation in the RTL
+  set_directive_bind_storage         - Define a specific implementation and latency for a storage element, or memory, in
+                                       the RTL
+  set_directive_dataflow             - Enables task level pipelining, allowing functions and loops to execute
+                                       concurrently. Used to optimize throughput and/or latency.
+  set_directive_dependence           - Used to provide additional information that can overcome loop-carried
+                                       dependencies and allow loops to be pipelined (or pipelined with lower intervals)
+  set_directive_disaggregate         - Break a struct down into its individual elements.
+  set_directive_expression_balance   - Allows automatic expression balancing to be turned off
+  set_directive_function_instantiate - Directive FUNCTION_INSTANTIATE
+  set_directive_inline               - Inlines a function, removing function hierarchy at this level.
+  set_directive_interface            - Specifies how RTL ports are created from the function description.
+  set_directive_latency              - Allows a minimum and/or maximum latency constraint to be specified
+  set_directive_loop_flatten         - Allows nested loops to be collapsed into a single loop with improved latency
+  set_directive_loop_merge           - Merge consecutive loops to reduce overall latency, increase sharing and improve
+                                       logic optimization
+  set_directive_loop_tripcount       - Used for loops which have variables bounds to provide an estimate for the loop
+                                       iteration count. This has no impact on synthesis, only on reporting.
+  set_directive_occurrence           - Used when pipelining functions or loops, to specify that the code in a location
+                                       is executed at a lesser rate than the code in the enclosing function or loop
+  set_directive_pipeline             - Reduces the initiation interval by allowing overlapped execution of operations
+                                       within a loop or function
+  set_directive_protocol             - Specify a region of code as a 'protocol' region where no clock operations will be
+                                       inserted by Vitis HLS unless explicitly specified in the code
+  set_directive_reset                - This command can be used to add or remove reset for specific state variables
+                                       (global or static)
+  set_directive_stable               - Indicates that a variable input or output of a dataflow region can be ignored
+                                       when generating the synchronizations at entry and exit of the dataflow region.
+  set_directive_stream               - Specifies that a specific array is to be implemented as a FIFO or RAM memory
+                                       channel during dataflow optimization.
+  set_directive_top                  - This directive attaches a name to a function, which can then be used with the
+                                       set_top command.
+  set_directive_unroll               - Transform loops to create multiple instances of the loop body and its
+                                       instructions that can then be scheduled independently
+  set_part                           - The set_part command sets a target device for the current solution. The command
+                                       can only be executed in the context of an active solution.
+  set_top                            - The set_top command defines the top-level function to be synthesized.
+[2Kvitis_hls> [11C[2Kvitis_hls> e[12C[2Kvitis_hls> ex[13C[2Kvitis_hls> exi[14C[2Kvitis_hls> exit[15C
+INFO: [Common 17-206] Exiting vitis_hls at Sat Oct  9 03:19:28 2021...
